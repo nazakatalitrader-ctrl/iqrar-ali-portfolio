@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Digital Card</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/card.css?v=5">
+</head><body>
+<div class="card">
+  <div class="cover"></div>
+  <div class="avatar" id="avatar"></div>
+  <div class="info">
+    <h1 id="name"></h1><div class="role" id="role"></div><p class="bio" id="bio"></p>
+    <div class="actions" id="actions"></div>
+    <div class="list" id="list"></div>
+    <div id="qrwrap"><div class="qr" id="qr"></div><div class="qrcap">Scan to open this card</div></div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============ EDIT THIS BLOCK ONLY ============ */
+window.CARD = {
+  name: "Iqrar Ali",
+  title: "SEO, GEO & AIO Expert",
+  company: "Iqrar Ali",
+  bio: "SEO, GEO and AIO expert: ranking in Google and getting recommended by AI search. Also managing GBP, GSC and building fast websites.",
+  photo: "assets/img/iqrar-ali.webp",
+  phone: "+923247395298",
+  whatsapp: "923247395298",
+  email: "iqrarali221105@gmail.com",
+  website: "https://YOURDOMAIN.com",
+  cardUrl: "",                     // EDIT after hosting, e.g. https://YOURDOMAIN.com/card-iqrar-ali.html
+  links: [
+    { icon: "🌐", label: "Portfolio", url: "https://YOURDOMAIN.com" },
+    { icon: "🔗", label: "LinkedIn",  url: "https://www.linkedin.com/in/iqrar-ali-6814a3371/" },
+    { icon: "📍", label: "Hire Local SEO Services", url: "https://hirelocalseoservies.com" },
+    { icon: "🤝", label: "Virtual Assistants Pakistan", url: "https://virtualassistantspakistan.com/" },
+    { icon: "🏢", label: "Apex Admins", url: "https://apexadmins.com.au/" }
+  ]
+};
+/* ============================================== */
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="assets/js/card.js?v=5"></script>
+</body></html>
+
